@@ -10,7 +10,9 @@ import Leon from "./pages/Leon";
 import Emma from "./pages/Emma";
 import Day1 from "./pages/Day1";
 import Day2 from "./pages/Day2";
-
+import Day3 from "./pages/Day3";
+import Day4 from "./pages/Day4";
+import Day5 from "./pages/Day5";
 
 const router = createBrowserRouter([
   {
@@ -23,28 +25,40 @@ const router = createBrowserRouter([
       },
       {
         path: "/taupe",
-        element: <Taupe/>
+        element: <Taupe />,
       },
       {
         path: "/leon",
-        element: <Leon/>
+        element: <Leon />,
       },
       {
         path: "/emma",
-        element: <Emma/>
+        element: <Emma />,
       },
       {
         path: "/alex",
-        element: <Alex/>
+        element: <Alex />,
       },
       {
         path: "/day1",
-        element: <Day1/>
+        element: <Day1 />,
       },
       {
         path: "/day2",
-        element: <Day2/>
-      }
+        element: <Day2 />,
+      },
+      {
+        path: "/day3",
+        element: <Day3 />,
+      },
+      {
+        path: "/day4",
+        element: <Day4 />,
+      },
+      {
+        path: "/day5",
+        element: <Day5 />,
+      },
     ],
   },
 ]);

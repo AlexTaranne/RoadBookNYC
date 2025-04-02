@@ -1,8 +1,12 @@
 header {
-    background-image: url("/banner.jpg");
-    background-repeat: no-repeat;
-    background-size:100%; /* Ajuste l'image pour couvrir toute la zone */
-    background-position: center bottom;
-    height: 29rem; /* Augmente la hauteur si besoin */
-
+  background-image: url("/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; /* Ajuste l'image pour couvrir toute la zone */
+  background-position: center bottom;
+  height: 2rem;
+}
+.avion {
+  height: 18rem;
+  width: 95%;
+  margin: 0 auto;
 }
