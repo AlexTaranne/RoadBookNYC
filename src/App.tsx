@@ -1,7 +1,14 @@
+import Footer from "./components/Footer";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import "./styles/app.css"
+
 function App() {
   return (
     <>
-      <h1>React + Biome = Template</h1>
+      <Navbar/>
+      <Outlet/>
+      <Footer/>
     </>
   );
 }
