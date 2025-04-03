@@ -1,3 +1,18 @@
-.pic-profil{
-    height: 10rem;
+.pic-profil {
+  height: 10rem;
+  width: 9rem;
+}
+.profil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 25rem;
+  background-color: #4281a4;
+  padding: 1rem;
+  border-radius: 4px;
+  color: #f2e7c9;
+  p {
+    text-align: center;
+  }
 }
