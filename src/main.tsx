@@ -10,7 +10,16 @@ import Leon from "./pages/Leon";
 import Emma from "./pages/Emma";
 import Day1 from "./pages/Day1";
 import Day2 from "./pages/Day2";
-
+import Day3 from "./pages/Day3";
+import Day4 from "./pages/Day4";
+import Day5 from "./pages/Day5";
+import Day6 from "./pages/Day6";
+import Day7 from "./pages/Day7";
+import Day8 from "./pages/Day8";
+import Day9 from "./pages/Day9";
+import Day10 from "./pages/Day10";
+import Infos from "./pages/Infos";
+import Link from "./pages/Link";
 
 const router = createBrowserRouter([
   {
@@ -23,28 +32,68 @@ const router = createBrowserRouter([
       },
       {
         path: "/taupe",
-        element: <Taupe/>
+        element: <Taupe />,
       },
       {
         path: "/leon",
-        element: <Leon/>
+        element: <Leon />,
       },
       {
         path: "/emma",
-        element: <Emma/>
+        element: <Emma />,
       },
       {
         path: "/alex",
-        element: <Alex/>
+        element: <Alex />,
       },
       {
         path: "/day1",
-        element: <Day1/>
+        element: <Day1 />,
       },
       {
         path: "/day2",
-        element: <Day2/>
-      }
+        element: <Day2 />,
+      },
+      {
+        path: "/day3",
+        element: <Day3 />,
+      },
+      {
+        path: "/day4",
+        element: <Day4 />,
+      },
+      {
+        path: "/day5",
+        element: <Day5 />,
+      },
+      {
+        path: "/day6",
+        element: <Day6 />,
+      },
+      {
+        path: "/day7",
+        element: <Day7 />,
+      },
+      {
+        path: "/day8",
+        element: <Day8 />,
+      },
+      {
+        path: "/day9",
+        element: <Day9 />,
+      },
+      {
+        path: "/day10",
+        element: <Day10 />,
+      },
+      {
+        path: "/infos",
+        element: <Infos />,
+      },
+      {
+        path: "/link",
+        element: <Link />,
+      },
     ],
   },
 ]);

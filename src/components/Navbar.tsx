@@ -1,4 +1,3 @@
-;
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -14,9 +13,6 @@ export default function NavBar() {
   const closeMenu = () => {
     setIsMenuOpen(false);
   };
- 
-
- 
 
   const links = [
     {
@@ -49,16 +45,17 @@ export default function NavBar() {
       path: "/day7",
     },
     {
-        name: "Jour 8",
-        path: "/day8",
+      name: "Jour 8",
+      path: "/day8",
     },
     {
-        name: "Jour 9",
-        path: "/day9",
-    },{
-    name: "Jour 10",
-    path: "/day10"
-}
+      name: "Jour 9",
+      path: "/day9",
+    },
+    {
+      name: "Jour 10",
+      path: "/day10",
+    },
   ];
 
   return (
@@ -70,24 +67,23 @@ export default function NavBar() {
       </div>
       <section>
         <div className="menu-icon" onClick={toggleMenu} onKeyDown={toggleMenu}>
-          {isMenuOpen ? <FaTimes size={30}/> : <FaBars size={30}/>}
+          {isMenuOpen ? (
+            <FaTimes size={30} color="white" />
+          ) : (
+            <FaBars size={30} color="white" />
+          )}
         </div>
 
         <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
-          {links
-           
-            .map((link) => (
-              <li key={link.name}>
-                <Link to={link.path} onClick={closeMenu}>
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          
-   
+          {links.map((link) => (
+            <li key={link.name}>
+              <Link to={link.path} onClick={closeMenu}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </section>
-     
     </nav>
   );
 }
