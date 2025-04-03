@@ -2,10 +2,10 @@ export default function Day3() {
   return (
     <section className="day1">
       <h1>Ground Zero et Soho</h1>
-      <h4>
+      <p>
         Rendez- vous à Ground Zero à 9H30, il y a 26 minutes de métro en partant
         de l'hôtel.
-      </h4>
+      </p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d48368.46217315042!2d-74.03705615974717!3d40.73938990944754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x89c25a19a7703223%3A0x10e7d265adf3ec76!2sGround%20Zero%2C%20Church%20Street%2C%20New%20York%2C%20%C3%89tat%20de%20New%20York%2C%20%C3%89tats-Unis!3m2!1d40.711049599999996!2d-74.0107859!4m5!1s0x89c25855f360c635%3A0x713f892f815c421!2sHotel%20Riu%20Plaza%20Manhattan%20Times%20Square%2C%20145%20W%2047th%20St%2C%20New%20York%2C%20NY%2010036%2C%20%C3%89tats-Unis!3m2!1d40.7589022!2d-73.9836073!5e0!3m2!1sfr!2sfr!4v1743598276758!5m2!1sfr!2sfr"
         width="600"
