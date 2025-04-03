@@ -7,7 +7,7 @@ export default function Day1() {
   const mapUrl = `https://www.google.com/maps/dir/${encodeURIComponent(start)}/${encodeURIComponent(destination)}`;
   return (
     <section className="day1">
-      <h2>Départ</h2>
+      <h1>Départ</h1>
       <p>
         Heure de départ de la maison: <strong>5H00</strong>.
       </p>
@@ -17,7 +17,7 @@ export default function Day1() {
           Voir l'itinéraire
         </Link>
       </div>
-      <h4>Fin d' embarquement à 9H30 et le décollage sera à 10H30.</h4>
+      <p>Fin d' embarquement à 9H30 et le décollage sera à 10H30.</p>
       <p>
         L' atterissage aura lieu à <strong>12H45</strong> heure locale
       </p>
@@ -32,10 +32,10 @@ export default function Day1() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
-      <h4>
+      <p>
         Aprés dépose des bagages à l' hotel, aller au guichet de métro récuperer
         les cartes de transport.
-      </h4>
+      </p>
       <iframe
         title="google"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3023183865207!2d-73.9921906032104!3d40.75537500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab4be746d7%3A0x4d9aade73c82f939!2sTimes%20Sq%E2%80%9342%20St!5e0!3m2!1sfr!2sfr!4v1743583572212!5m2!1sfr!2sfr"

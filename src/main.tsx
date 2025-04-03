@@ -13,6 +13,11 @@ import Day2 from "./pages/Day2";
 import Day3 from "./pages/Day3";
 import Day4 from "./pages/Day4";
 import Day5 from "./pages/Day5";
+import Day6 from "./pages/Day6";
+import Day7 from "./pages/Day7";
+import Day8 from "./pages/Day8";
+import Day9 from "./pages/Day9";
+import Day10 from "./pages/Day10";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +63,26 @@ const router = createBrowserRouter([
       {
         path: "/day5",
         element: <Day5 />,
+      },
+      {
+        path: "/day6",
+        element: <Day6 />,
+      },
+      {
+        path: "/day7",
+        element: <Day7 />,
+      },
+      {
+        path: "/day8",
+        element: <Day8 />,
+      },
+      {
+        path: "/day9",
+        element: <Day9 />,
+      },
+      {
+        path: "/day10",
+        element: <Day10 />,
       },
     ],
   },
