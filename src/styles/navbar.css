@@ -5,7 +5,7 @@ nav {
   padding: 10px 20px;
   color: var(--primary-color);
   background-color: #4281a4;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -81,6 +81,14 @@ title {
 
   .nav-links.active {
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+    background-color: #4281a4;
+    z-index: 999;
   }
   .navbar-logo {
     font-family: "Monoton", sans-serif;
